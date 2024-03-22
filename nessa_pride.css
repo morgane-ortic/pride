@@ -1,5 +1,6 @@
 body {
     background-size: 100%;
+   
   }
   body,
 h1,
@@ -25,6 +26,17 @@ body a {
   body a:hover {
     color: #404040;
   }
+   body {
+    /* define the width of the body: */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  min-width: 600px;
+    background-color: black;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+  }
+
 
  h1{ text-shadow: 0 1px 0 hwb(170 13% 13%), 0 2px 0 #ccc,
     0 3px 0 #ccc, 0 4px 0 #ccc,
@@ -93,21 +105,8 @@ header {
                         border-left: 5px solid #404040; /* Adds a dark left border for style */
                         border-radius: 25px 15px 75px 15px;
                               }
-                              .topic2{
-                                background-color:palevioletred; /* Light grey background for reasons */
-                                margin: 20px 0; /* Adds margin above and below each section */
-                                padding: 10px; /* Padding inside each section */
-                                border-left: 5px solid #404040; /* Adds a dark left border for style */
-                                border-radius: 25px 15px 75px 15px;
-                                      }   
-                                      .link{
-                                        background-color:rgb(173, 28, 77); /* Light grey background for reasons */
-                                        margin: 20px 0; /* Adds margin above and below each section */
-                                        padding: 10px; /* Padding inside each section */
-                                        border-left: 5px solid #404040; /* Adds a dark left border for style */
-                                        border-radius: 25px 15px 75px 15px;
-                                              }    
-
+                                      
+                                    
 footer a {
     color: #42babe;
     font-weight: bold;
@@ -138,3 +137,34 @@ footer {
   ul {
     flex: content;
   }
+
+
+
+  .about {
+    background-color: #20adb8; /* Light grey background for reasons */
+    margin: 20px 0; /* Adds margin above and below each section */
+    padding: 20px; /* Padding inside each section */
+    border-left: 5px solid #d13abd; /* Adds a dark left border for style */
+    border-radius: 25px 15px 75px 15px;
+}
+{
+
+    .center-img /
+    display: flex;
+    justify-content: center;
+
+  } body {
+    /* define the width of the body: */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  min-width: 600px;
+    background-color: black;
+    background-image: url(/heavens.jpeg);
+    background-size: 100%;
+  }
+
+  
+  .main {: ;
+
+}

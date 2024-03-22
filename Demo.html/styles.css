@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(205, 172, 63);
+  }
+  h1 {font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+  p { 
+    color: black;
+  }
+
+  .p1{ width: 200px;
+    height: 260px;
+    float: left;
+    
+}   
+
+  .p3 {
+    border: 2px solid rgb(79, 147, 156);
+    
+}   
+div.img1 {
+    
+display: flex; 
+justify-content: center;
+align-items: center;
+
+
+    
+    
+ }
