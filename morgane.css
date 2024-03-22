@@ -64,6 +64,11 @@ h1 {
   text-align: center;
   font-size: 80px;
 }
+
+h1:hover {
+    color: #ff1493;
+  }
+
 h2 {
   font-family: "bebas", sans-serif;
   text-align: center;
@@ -157,4 +162,8 @@ ul {
 ul li:before {
   content: "🎤";
   margin: 0 0.3em;
+}
+
+#longer-p {
+    margin-bottom: 190px;
 }
