@@ -1,0 +1,140 @@
+body {
+    background-size: 100%;
+  }
+  body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Sets a nice, readable font */
+  line-height: 1.4;
+}
+body a {
+    color: #00ccc2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+body a {
+    background-color: hwb(17% 11%);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+  }
+
+  body a:hover {
+    color: #404040;
+  }
+
+ h1{ text-shadow: 0 1px 0 hwb(170 13% 13%), 0 2px 0 #ccc,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 hwb(0 80% 20%),
+    0 20px 30px rgba(0, 0, 0, 0.5);
+
+  }
+
+  h2 {
+    font-family: Conthrax, sans-serif;
+    padding-bottom: 15px;
+     }
+
+     .container {
+        max-width: 800px; /* Limits the container's width for readability */
+        margin: 0 auto; /* Centers the container */
+        padding: 20px; /* Adds some padding inside the container */
+        
+      }
+
+header {
+    background-color: burlywood; /* Dark background for the header */
+    color: #20201b; /* White text for contrast */
+    padding: 20px 0; /* Padding above and below the text */
+    text-align: center; /* Centers the header text */
+    border-radius: 15px;
+  }
+
+  .reason {
+    background-color: #f0f0f0; /* Light grey background for reasons */
+    margin: 20px 0; /* Adds margin above and below each section */
+    padding: 20px; /* Padding inside each section */
+    border-left: 5px solid #404040; /* Adds a dark left border for style */
+    border-radius: 25px 15px 75px 15px;
+    
+  }
+  .reason img {
+    max-width: 760px;
+    border-radius: 15px;
+       }
+
+       span {
+        font-weight: bold;
+      }
+
+      .reason1{
+        background-color: bisque; /* Light grey background for reasons */
+        margin: 20px 0; /* Adds margin above and below each section */
+        padding: 10px; /* Padding inside each section */
+        border-left: 5px solid #404040; /* Adds a dark left border for style */
+        border-radius: 25px 15px 75px 15px;
+              }
+
+     .reason2{
+                background-color: rgb(37, 196, 188); /* Light grey background for reasons */
+                margin: 20px 0; /* Adds margin above and below each section */
+                padding: 20px; /* Padding inside each section */
+                border-left: 5px solid #404040; /* Adds a dark left border for style */
+                border-radius: 25px 15px 75px 15px;
+                      }
+
+                      .topic1{
+                        background-color: bisque; /* Light grey background for reasons */
+                        margin: 20px 0; /* Adds margin above and below each section */
+                        padding: 10px; /* Padding inside each section */
+                        border-left: 5px solid #404040; /* Adds a dark left border for style */
+                        border-radius: 25px 15px 75px 15px;
+                              }
+                              .topic2{
+                                background-color:palevioletred; /* Light grey background for reasons */
+                                margin: 20px 0; /* Adds margin above and below each section */
+                                padding: 10px; /* Padding inside each section */
+                                border-left: 5px solid #404040; /* Adds a dark left border for style */
+                                border-radius: 25px 15px 75px 15px;
+                                      }   
+                                      .link{
+                                        background-color:rgb(173, 28, 77); /* Light grey background for reasons */
+                                        margin: 20px 0; /* Adds margin above and below each section */
+                                        padding: 10px; /* Padding inside each section */
+                                        border-left: 5px solid #404040; /* Adds a dark left border for style */
+                                        border-radius: 25px 15px 75px 15px;
+                                              }    
+
+footer a {
+    color: #42babe;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+footer img {
+    max-height: 600px;
+  }
+
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text for contrast */
+    padding: 10px 0; /* Padding above and below the footer content */
+    border-radius: 15px;
+    text-align: center; /* Centers the footer text */
+    margin-top: 40px; /* Adds space above the footer */
+    line-height: 1.5;
+  }
+  footer a:hover {
+    color: hsl(172, 100%, 40%);
+  }
+
+  #center-img {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    flex: content;
+  }
