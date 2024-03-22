@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Conthrax";
+  src: url(../conthrax-sb.otf);
+}
+
+body {
+  background-size: 100%;
+}
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Sets a nice, readable font */
+  line-height: 1.4;
+}
+
+body a {
+  color: #cc00cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #404040;
+}
+
+h1,
+h2 {
+  font-family: Conthrax, sans-serif;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+h4 {
+  font-family: Conthrax, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 800px; /* Limits the container's width for readability */
+  margin: 0 auto; /* Centers the container */
+  padding: 20px; /* Adds some padding inside the container */
+  
+}
+
+header {
+  background-color: #404040; /* Dark background for the header */
+  color: #fff; /* White text for contrast */
+  padding: 20px 0; /* Padding above and below the text */
+  text-align: center; /* Centers the header text */
+  border-radius: 15px;
+}
+
+.reason {
+  background-color: #f0f0f0; /* Light grey background for reasons */
+  margin: 20px 0; /* Adds margin above and below each section */
+  padding: 20px; /* Padding inside each section */
+  border-left: 5px solid #404040; /* Adds a dark left border for style */
+  border-radius: 15px;
+}
+
+.reason img {
+  max-width: 760px;
+  border-radius: 15px;
+}
+
+.highlight {
+  background-color: #ffb366; /* Highlights important reasons */
+  border-color: #FF4500; /* Changes the border color to orange */
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text for contrast */
+  padding: 10px 0; /* Padding above and below the footer content */
+  border-radius: 15px;
+  text-align: center; /* Centers the footer text */
+  margin-top: 40px; /* Adds space above the footer */
+  line-height: 1.5;
+}
+
+footer img {
+  max-height: 40px;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer a:hover {
+  color: #cc00cc;
+}
+
+#center-img {
+  display: flex;
+  justify-content: center;
+}
+
+.reason2 {
+  background-color: #f0f0f0; /* Light grey background for reasons */
+  margin: 20px 0; /* Adds margin above and below each section */
+  padding: 20px; /* Padding inside each section */
+  border-left: 5px solid #404040; /* Adds a dark left border for style */
+  border-radius: 25px 15px 75px 15px;
+}
+
+.content {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Stack children vertically */
+  justify-content: space-between;
+  /* align-items: flex-start; /* Align items at the start of the cross axis */
+}
+    
+.img img {
+  max-width: 100px; /* Limit image width */
+  height: auto; /* Maintain aspect ratio */
+  filter: opacity(50%);
+}
+
+.javier {
+  background-color: #66e0ff; /* Highlights important reasons */
+  background-image: linear-gradient(to bottom, #66e0ff, #3366ff); /* Example gradient from light blue to dark blue */
+  border-color: #2f00ff; /* Changes the border color to blue */
+}
+.imagine2{
+  display: none;
+}
+.display-imagine2:hover ~ .imagine2 {
+  display: block;
+}
+
+/* just testing stuff */
+.imagine2:target ~ {
+  display: block; /* Display the image when it is the target */
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-checkbox:checked ~ .content .img {
+  display: block;
+}
+
+.text label {
+  cursor: pointer;
+}
