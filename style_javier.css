@@ -5,6 +5,12 @@
 
 body {
   background-size: 100%;
+  background: #fcfffc;
+  background-image: url('https://blog.chsbuffalo.org/wp-content/uploads/2021/08/Running-JointPain-1280x640-1-1280x640.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+    
 }
 
 body,
