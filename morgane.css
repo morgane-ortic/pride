@@ -109,9 +109,19 @@ p {
   margin-bottom: 0px;
 }
 
-.player-container h4 {
+.player-container h4, button {
   font-family: "bebas", sans-serif;
   font-size: 32px;
+}
+
+button {
+    background-color: #eeccff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    color: #ff1493;
 }
 
 .player-container p {
