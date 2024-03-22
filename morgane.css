@@ -36,6 +36,18 @@ main {
   margin-bottom: 30px;
 }
 
+
+#top-container {
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  
+    gap: 2em;
+  }
+
 .container {
   display: flex;
 
