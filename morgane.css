@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bebas";
-  src: url(/Bebas-Regular.ttf);
+  src: url(./Bebas-Regular.ttf);
 }
 
 body {
@@ -10,7 +10,6 @@ body {
   max-width: 1200px;
   min-width: 600px;
   background-color: black;
-  background-image: url(../img/background.jpg);
   background-size: 100%;
 }
 
