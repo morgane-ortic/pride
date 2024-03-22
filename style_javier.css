@@ -134,6 +134,7 @@ footer a:hover {
 
 .javier {
   background-color: #66e0ff; /* Highlights important reasons */
+  background-image: linear-gradient(to bottom, #66e0ff, #3366ff); /* Example gradient from light blue to dark blue */
   border-color: #2f00ff; /* Changes the border color to orange */
 }
 .imagine2{
@@ -142,6 +143,20 @@ footer a:hover {
 .display-imagine2:hover ~ .imagine2 {
   display: block;
 }
+
+/* just testing stuff */
 .imagine2:target ~ {
   display: block; /* Display the image when it is the target */
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-checkbox:checked ~ .content .img {
+  display: block;
+}
+
+.text label {
+  cursor: pointer;
 }
