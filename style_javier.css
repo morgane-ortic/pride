@@ -130,12 +130,13 @@ footer a:hover {
 .img img {
   max-width: 100px; /* Limit image width */
   height: auto; /* Maintain aspect ratio */
+  filter: opacity(50%);
 }
 
 .javier {
   background-color: #66e0ff; /* Highlights important reasons */
   background-image: linear-gradient(to bottom, #66e0ff, #3366ff); /* Example gradient from light blue to dark blue */
-  border-color: #2f00ff; /* Changes the border color to orange */
+  border-color: #2f00ff; /* Changes the border color to blue */
 }
 .imagine2{
   display: none;
