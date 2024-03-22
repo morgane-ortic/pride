@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Bebas";
+  src: url(/fonts/Bebas-Regular.ttf);
+}
+
+body {
+  /* define the width of the body: */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  min-width: 600px;
+  background-color: black;
+  background-image: url(../img/background.jpg);
+  background-size: 100%;
+}
+
+main {
+  background-color: beige;
+  min-height: 800px;
+
+  border-radius: 30px;
+  min-width: 600px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  gap: 2em;
+}
+
+#title {
+    margin-bottom: 60px;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  width: 520px;
+  min-height: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.intro-text {
+  width: 520px;
+}
+.intro-text p {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-family: Bebas, sans-serif;
+  font-size: 34px;
+}
+
+section img {
+  border-radius: 15px;
+  max-width: 540px;
+}
