@@ -57,6 +57,7 @@ main {
   flex-wrap: wrap;
 
   gap: 2em;
+  row-gap: 4em;
 }
 
 h1 {
